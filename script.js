@@ -2,8 +2,8 @@
 // RB Drinks — interações
 // ==========================================================
 
-// Número de WhatsApp (somente dígitos, com DDI 55 + DDD). Troque pelo número real.
-const WHATSAPP = "5500000000000";
+// Número de WhatsApp (somente dígitos, com DDI 55 + DDD).
+const WHATSAPP = "5519971392122";
 
 // Ano no rodapé
 document.getElementById("year").textContent = new Date().getFullYear();

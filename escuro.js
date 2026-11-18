@@ -2,8 +2,8 @@
 // RB Drinks — versão escura · interações
 // ==========================================================
 
-// Número de WhatsApp (somente dígitos: 55 + DDD + número). Troque pelo real.
-const WHATSAPP = "5500000000000";
+// Número de WhatsApp (somente dígitos: 55 + DDD + número).
+const WHATSAPP = "5519971392122";
 
 const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const $ = (s, el = document) => el.querySelector(s);
