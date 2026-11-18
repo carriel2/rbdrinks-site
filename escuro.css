@@ -117,6 +117,11 @@ h2 em, h1 em { font-style: italic; color: var(--accent); }
     radial-gradient(80% 60% at 20% 90%, rgba(0,74,173,.25), transparent 70%);
 }
 body.is-ready .hero__bg img { transform: scale(1.02); }
+/* capa com o cartão: foto ampliada e deslocada para o logo ficar em cima, à direita do título */
+.hero__bg img.hero__img--cartao { position: absolute; max-width: none; width: 150%; height: 150%; left: -10%; top: -44%; object-position: 50% 50%; }
+@media (max-width: 860px) {
+  .hero__bg img.hero__img--cartao { width: 100%; height: 150%; left: 0; top: -49%; object-position: 50% 50%; }
+}
 .hero__content { position: relative; width: 100%; padding: 0 var(--pad) clamp(3rem, 8vh, 6rem); }
 .hero__kicker { font-size: .74rem; letter-spacing: .3em; text-transform: uppercase; color: rgba(237,232,223,.8); margin-bottom: 1.4rem; font-weight: 500; }
 .hero__title { font-size: clamp(3.6rem, 12vw, 11rem); line-height: .92; }
