@@ -10,6 +10,20 @@ const $ = (s, el = document) => el.querySelector(s);
 const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+// Prévia de capas: escuro.html?capa=1 … ?capa=4 (temporário, até escolher a foto)
+const CAPAS = {
+  1: ["cartao-rb", "40% 55%"],
+  2: ["bar-janelas-2", "50% 62%"],
+  3: ["bar-detalhe-noite", "50% 50%"],
+  4: ["bar-jardim", "50% 62%"],
+};
+const capa = CAPAS[new URLSearchParams(location.search).get("capa")];
+if (capa) {
+  const h = $(".hero__bg img");
+  h.src = `assets/img/${capa[0]}.jpg`;
+  h.style.objectPosition = capa[1];
+}
 $$(".js-wa").forEach((a) => (a.href = `https://wa.me/${WHATSAPP}`));
 
 // ---------- Intro ----------
