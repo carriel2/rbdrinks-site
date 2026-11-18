@@ -203,7 +203,8 @@ $("#contactForm").addEventListener("submit", (e) => {
     `Gostaria de um orçamento:\n` +
     `• Evento: ${f.get("tipo")}\n` +
     `• Data: ${data}\n` +
-    `• Convidados: ${f.get("convidados") || "a definir"}` +
+    `• Convidados: ${f.get("convidados") || "a definir"}\n` +
+    `• Chopp/cerveja: ${f.get("cerveja") || "Não"}` +
     (f.get("mensagem") ? `\n\n${f.get("mensagem")}` : "");
   window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`, "_blank");
 });

@@ -97,6 +97,7 @@ document.getElementById("contactForm").addEventListener("submit", (e) => {
     `• Evento: ${f.get("tipo")}\n` +
     `• Data: ${data}\n` +
     `• Convidados: ${f.get("convidados") || "a definir"}\n` +
+    `• Chopp/cerveja: ${f.get("cerveja")}\n` +
     (f.get("mensagem") ? `\n${f.get("mensagem")}` : "");
   window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`, "_blank");
 });
