@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RB Drinks · Drinks que criam memórias</title>
+  <meta name="description" content="RB Drinks — bar completo para casamentos, aniversários e eventos corporativos. Drinks autorais, mocktails e coffee bar com atendimento elegante." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/brand/icone-azul.png" type="image/png" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#inicio" class="nav__brand" aria-label="RB Drinks — início">
+      <img src="assets/brand/marca-azul.png" alt="RB Drinks" class="nav__logo" />
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato" class="nav__cta">Orçamento</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__text">
+      <p class="eyebrow reveal">Bar para eventos</p>
+      <h1 class="reveal">Drinks que<br /><em>criam memórias</em></h1>
+      <p class="hero__lead reveal">Coquetelaria artesanal, estrutura elegante e um atendimento pensado em cada detalhe — para que o seu evento seja lembrado também pelo brinde.</p>
+      <div class="hero__actions reveal">
+        <a href="#contato" class="btn btn--primary">Solicitar orçamento</a>
+        <a href="#galeria" class="btn btn--ghost">Ver eventos</a>
+      </div>
+    </div>
+    <div class="hero__media reveal">
+      <img src="assets/img/bar-por-do-sol.jpg" alt="Bar RB Drinks montado ao pôr do sol" />
+      <div class="hero__badge">
+        <span class="hero__badge-big">RB</span>
+        <span class="hero__badge-small">desde o primeiro brinde</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Casamentos</span><i>✦</i><span>Aniversários</span><i>✦</i><span>Eventos corporativos</span><i>✦</i><span>Drinks autorais</span><i>✦</i><span>Mocktails</span><i>✦</i><span>Coffee bar</span><i>✦</i>
+      <span>Casamentos</span><i>✦</i><span>Aniversários</span><i>✦</i><span>Eventos corporativos</span><i>✦</i><span>Drinks autorais</span><i>✦</i><span>Mocktails</span><i>✦</i><span>Coffee bar</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- SOBRE -->
+  <section class="about section" id="sobre">
+    <div class="about__media reveal">
+      <img src="assets/img/bartender.jpg" alt="Bartender da RB Drinks atrás do bar" class="about__img-main" />
+      <img src="assets/img/drink-caramelo.jpg" alt="Drink com caramelo em copo de cristal" class="about__img-float" />
+    </div>
+    <div class="about__text">
+      <p class="eyebrow reveal">Nossa história</p>
+      <h2 class="reveal">Um bar feito <em>a quatro mãos</em></h2>
+      <p class="reveal">A RB Drinks nasceu da paixão de <strong>Julia Ribeiro</strong> e <strong>Gustavo Ribeiro</strong> por receber bem. Acreditamos que um bom drink vai muito além do copo: é o momento em que as pessoas se encontram, brindam e guardam uma lembrança.</p>
+      <p class="reveal">Por isso cuidamos de tudo — do cardápio criado para o seu evento à montagem do bar, da escolha das taças ao último drink da noite.</p>
+      <div class="about__sign reveal">
+        <span>Julia &amp; Gustavo</span>
+        <small>Fundadores</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="services section" id="servicos">
+    <div class="section__head">
+      <p class="eyebrow reveal">O que oferecemos</p>
+      <h2 class="reveal">Uma experiência <em>completa</em></h2>
+    </div>
+    <div class="services__grid">
+      <article class="card reveal">
+        <div class="card__img"><img src="assets/img/aperol-servindo.jpg" alt="Aperol Spritz sendo servido" loading="lazy" /></div>
+        <div class="card__body">
+          <span class="card__num">01</span>
+          <h3>Drinks alcoólicos</h3>
+          <p>Clássicos impecáveis e criações autorais — Aperol Spritz, gin tônica, caipirinhas, Moscow Mule e muito mais.</p>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card__img"><img src="assets/img/drink-zero.jpg" alt="Drink rosa sem álcool em taça coupe" loading="lazy" /></div>
+        <div class="card__body">
+          <span class="card__num">02</span>
+          <h3>Mocktails</h3>
+          <p>Drinks sem álcool com o mesmo cuidado e apresentação, para que todos os convidados participem do brinde.</p>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card__img"><img src="assets/img/bar-noite.jpg" alt="Detalhe do bar à noite com abajur" loading="lazy" /></div>
+        <div class="card__body">
+          <span class="card__num">03</span>
+          <h3>Coffee bar</h3>
+          <p>Cafés especiais e drinks à base de café para fechar a noite com aconchego e sofisticação.</p>
+        </div>
+      </article>
+    </div>
+
+    <ul class="includes reveal">
+      <li>Bar cenográfico montado no local</li>
+      <li>Bartenders uniformizados</li>
+      <li>Taças e copos de cristal</li>
+      <li>Cardápio personalizado</li>
+      <li>Frutas frescas e insumos</li>
+      <li>Montagem e desmontagem</li>
+    </ul>
+  </section>
+
+  <!-- FAIXA DE IMAGEM -->
+  <section class="banner">
+    <img src="assets/img/bar-frontal.jpg" alt="Bar RB Drinks iluminado com lâmpadas pendentes" loading="lazy" />
+    <div class="banner__overlay">
+      <p class="reveal">“Cada evento é único — e o bar também deve ser.”</p>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="steps section" id="como-funciona">
+    <div class="section__head">
+      <p class="eyebrow reveal">Como funciona</p>
+      <h2 class="reveal">Do primeiro contato <em>ao último brinde</em></h2>
+    </div>
+    <ol class="steps__list">
+      <li class="reveal">
+        <span>I</span>
+        <h3>Conversa</h3>
+        <p>Entendemos o seu evento: data, local, número de convidados e o estilo que você imagina.</p>
+      </li>
+      <li class="reveal">
+        <span>II</span>
+        <h3>Cardápio</h3>
+        <p>Montamos uma carta de drinks sob medida, combinando com a decoração e o perfil dos convidados.</p>
+      </li>
+      <li class="reveal">
+        <span>III</span>
+        <h3>Montagem</h3>
+        <p>Chegamos com antecedência e montamos o bar completo, com cada detalhe no lugar.</p>
+      </li>
+      <li class="reveal">
+        <span>IV</span>
+        <h3>O grande dia</h3>
+        <p>Nossa equipe cuida de tudo para que você só precise aproveitar — e brindar.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="gallery section" id="galeria">
+    <div class="section__head">
+      <p class="eyebrow reveal">Galeria</p>
+      <h2 class="reveal">Momentos que <em>servimos</em></h2>
+    </div>
+    <div class="gallery__grid" id="gallery">
+      <figure class="reveal"><img src="assets/img/noiva-aperol.jpg" alt="Noiva brindando com Aperol Spritz" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/drink-redoma.jpg" alt="Drink sob redoma de vidro" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/bar-verde.jpg" alt="Bar verde com garrafas e taças" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/bar-deck.jpg" alt="Bar verde montado em deck ao ar livre" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/caipirinha.jpg" alt="Caipirinha sendo entregue ao convidado" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/bar-tijolos.jpg" alt="Bar branco em ambiente de tijolos" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/bar-detalhe-campari.jpg" alt="Detalhe do bar com garrafas e taças" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/convidada-aperol.jpg" alt="Convidada saboreando um Aperol" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/bar-luz-laranja.jpg" alt="Bar branco com iluminação cênica" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/bar-lampadas.jpg" alt="Bar com lâmpadas pendentes e abajures" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/bar-detalhe-limao.jpg" alt="Limões fatiados e taças no bar" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/canecas.jpg" alt="Canecas de Moscow Mule" loading="lazy" /></figure>
+      <figure class="reveal"><img src="assets/img/bar-janelas.jpg" alt="Bar montado em salão com janelas amplas" loading="lazy" /></figure>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact section" id="contato">
+    <div class="contact__inner">
+      <div class="contact__text">
+        <p class="eyebrow reveal">Orçamento</p>
+        <h2 class="reveal">Vamos criar <em>a sua memória?</em></h2>
+        <p class="reveal">Conte um pouco sobre o seu evento e retornamos com uma proposta personalizada.</p>
+        <ul class="contact__links reveal">
+          <li><a href="https://wa.me/5500000000000" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://instagram.com/rbdrinks" target="_blank" rel="noopener">@rbdrinks</a></li>
+          <li><a href="mailto:contato@rbdrinks.com.br">contato@rbdrinks.com.br</a></li>
+        </ul>
+      </div>
+      <form class="form reveal" id="contactForm">
+        <label>Nome<input type="text" name="nome" required /></label>
+        <div class="form__row">
+          <label>Data do evento<input type="date" name="data" /></label>
+          <label>Convidados<input type="number" name="convidados" min="1" placeholder="ex: 120" /></label>
+        </div>
+        <label>Tipo de evento
+          <select name="tipo">
+            <option>Casamento</option>
+            <option>Aniversário</option>
+            <option>Corporativo</option>
+            <option>Outro</option>
+          </select>
+        </label>
+        <label>Mensagem<textarea name="mensagem" rows="3" placeholder="Local, estilo, drinks favoritos..."></textarea></label>
+        <button type="submit" class="btn btn--primary">Enviar pelo WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <img src="assets/brand/logo-azul.png" alt="RB Drinks — Drinks que criam memórias" class="footer__logo" />
+    <p class="footer__copy">© <span id="year"></span> RB Drinks · Julia &amp; Gustavo Ribeiro</p>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Fechar">×</button>
+    <button class="lightbox__prev" aria-label="Anterior">‹</button>
+    <img alt="" />
+    <button class="lightbox__next" aria-label="Próxima">›</button>
+  </div>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/5500000000000" class="wa-float" target="_blank" rel="noopener" aria-label="Fale no WhatsApp">
+    <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3 2.4.9 2.9.8 3.4.7.5-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4C2.7 15.6 2.2 13.8 2.2 12 2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8zM20.5 3.5C18.2 1.2 15.2 0 12 0 5.4 0 0 5.4 0 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6c1.8 1 3.8 1.5 5.8 1.5 6.6 0 12-5.4 12-12 0-3.2-1.2-6.2-3.5-8.4z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
